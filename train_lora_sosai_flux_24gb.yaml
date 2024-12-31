@@ -31,7 +31,7 @@ config:
         # images will automatically be resized and bucketed into the resolution specified
         # on windows, escape back slashes with another backslash so
         # "C:\\path\\to\\images\\folder"
-        - folder_path: "/home/user/workspace/startup/ai-toolkit/training_data/"
+        - folder_path: "https://gofile.me/7zNgR/tr07C0QLn"
           caption_ext: "txt"
           caption_dropout_rate: 0.05 # will drop out the caption 5% of time
           shuffle_tokens: true # shuffle caption order, split by commas
