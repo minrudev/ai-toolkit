@@ -31,7 +31,7 @@ config:
         # images will automatically be resized and bucketed into the resolution specified
         # on windows, escape back slashes with another backslash so
         # "C:\\path\\to\\images\\folder"
-        - folder_path: "./training_data"
+        - folder_path: "/training_data/"
           caption_ext: "txt"
           caption_dropout_rate: 0.05 # will drop out the caption 5% of time
           shuffle_tokens: true # shuffle caption order, split by commas
